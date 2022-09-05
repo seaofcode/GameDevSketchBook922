@@ -4,18 +4,28 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
-
     [SerializeField] float moveSpeed;
 
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        playerMovement();
+    }
+
+    void playerMovement(){
+        float horInput = Input.GetAxis("Horizontal");
+        float verInput = Input.GetAxis("Vertical");
+        transform.Translate(new Vector2(horInput, verInput) * moveSpeed * Time.deltaTime);
+    }
+
+    private void OnCollisionEnter2D(Collision2D other) {
+        if(other.gameObject.tag == "Enemy")
+        {
+            other.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+        }
     }
 }
