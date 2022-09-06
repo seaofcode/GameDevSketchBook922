@@ -6,9 +6,11 @@ public class PlayerCollision : MonoBehaviour
 {
     [SerializeField] float moveSpeed;
 
+    public SwitchDoor mySwitchDoorScript;
+    
     void Start()
     {
-        
+        mySwitchDoorScript = GameObject.Find("WallDoor").GetComponent<SwitchDoor>();
     }
 
     void Update()
@@ -26,6 +28,14 @@ public class PlayerCollision : MonoBehaviour
         if(other.gameObject.tag == "Enemy")
         {
             other.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.gameObject.tag == "Switch")
+        {
+            other.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+            mySwitchDoorScript.hasActive = true;
         }
     }
 }
