@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/01-URP/01-URP-Global Light.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/03-OnCollision/01-OnCollisionTag.unity
+    guid: a6a9ae4b0b8ae57489d5f753f3080f6a
+  - enabled: 1
+    path: Assets/03-OnCollision/02-2 Switch.unity
+    guid: c3de30b2143d2b148a2f6edbff849adb
   m_configObjects: {}

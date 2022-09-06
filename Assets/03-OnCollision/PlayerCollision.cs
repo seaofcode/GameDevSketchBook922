@@ -36,6 +36,7 @@ public class PlayerCollision : MonoBehaviour
         {
             other.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
             mySwitchDoorScript.OpenDoor();
+            other.gameObject.GetComponent<Collider2D>().isTrigger = false;
         }
     }
 }
