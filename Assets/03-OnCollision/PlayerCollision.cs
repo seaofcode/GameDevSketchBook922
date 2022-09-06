@@ -35,7 +35,7 @@ public class PlayerCollision : MonoBehaviour
         if(other.gameObject.tag == "Switch")
         {
             other.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
-            mySwitchDoorScript.hasActive = true;
+            mySwitchDoorScript.OpenDoor();
         }
     }
 }
