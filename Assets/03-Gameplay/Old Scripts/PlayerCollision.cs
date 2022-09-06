@@ -7,18 +7,22 @@ public class PlayerCollision : MonoBehaviour
     [SerializeField] float moveSpeed;
 
     public SwitchDoor mySwitchDoorScript;
+    public BlueButton myBlueButton;
+    public RedSwitch myRedSwitch;
     
     void Start()
     {
         mySwitchDoorScript = GameObject.Find("WallDoor").GetComponent<SwitchDoor>();
+        myBlueButton = GameObject.Find("Button").GetComponent<BlueButton>();
+        myRedSwitch = GameObject.Find("Switch").GetComponent<RedSwitch>();
     }
 
     void Update()
     {
-        playerMovement();
+        PlayerMovement();
     }
 
-    void playerMovement(){
+    void PlayerMovement(){
         float horInput = Input.GetAxis("Horizontal");
         float verInput = Input.GetAxis("Vertical");
         transform.Translate(new Vector2(horInput, verInput) * moveSpeed * Time.deltaTime);
@@ -28,6 +32,7 @@ public class PlayerCollision : MonoBehaviour
         if(other.gameObject.tag == "Enemy")
         {
             other.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+            // Destroy(gameObject);
         }
     }
 
@@ -36,6 +41,12 @@ public class PlayerCollision : MonoBehaviour
         {
             other.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
             mySwitchDoorScript.OpenDoor();
+            other.gameObject.GetComponent<Collider2D>().isTrigger = false;
+        }
+        if(other.gameObject.tag == "Button")
+        {
+            other.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
+            myBlueButton.SpawnButton();
             other.gameObject.GetComponent<Collider2D>().isTrigger = false;
         }
     }
