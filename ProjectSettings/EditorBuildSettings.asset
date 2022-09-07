@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/03-Gameplay/Levels/02-Blue Button.unity
     guid: c3de30b2143d2b148a2f6edbff849adb
+  - enabled: 1
+    path: Assets/03-Gameplay/Levels/03 - Green Button.unity
+    guid: e49e03f4c3a1a58418da482dcc1a2e6e
+  - enabled: 1
+    path: Assets/03-Gameplay/Levels/04- Yellow Door.unity
+    guid: 1e92e72108f70314295a7caf3b305ebb
   m_configObjects: {}
