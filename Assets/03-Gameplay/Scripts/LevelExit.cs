@@ -29,4 +29,10 @@ public class LevelExit : MonoBehaviour
 
         SceneManager.LoadScene(nextSceneIndex);
     }
+
+    public void ReloadLevel()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex);
+    }
 }

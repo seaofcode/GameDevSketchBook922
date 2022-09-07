@@ -13,9 +13,12 @@ public class GameManager : MonoBehaviour
 
     
     void Start() {
-        greenSwitch1 = GameObject.Find("ColorChangeSwitch1").GetComponent<ColorChangeSwitch>();
-        greenSwitch2 = GameObject.Find("ColorChangeSwitch2").GetComponent<ColorChangeSwitch>();
-        greenSwitch3 = GameObject.Find("ColorChangeSwitch3").GetComponent<ColorChangeSwitch>();
+        if(!greenSwitch1 == null && !greenSwitch1 == null && !greenSwitch1 == null)
+        {
+            greenSwitch1 = GameObject.Find("ColorChangeSwitch1").GetComponent<ColorChangeSwitch>();
+            greenSwitch2 = GameObject.Find("ColorChangeSwitch2").GetComponent<ColorChangeSwitch>();
+            greenSwitch3 = GameObject.Find("ColorChangeSwitch3").GetComponent<ColorChangeSwitch>();
+        }
     }
 
     public void CorrectColorCounter()

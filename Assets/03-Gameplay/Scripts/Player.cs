@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] float moveSpeed;
+    [SerializeField] LevelExit myLevelReload;
 
 
     void Update()
@@ -21,8 +22,8 @@ public class Player : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other) {
         if(other.gameObject.tag == "Enemy")
         {
-            other.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
-            // Destroy(gameObject);
+            Destroy(gameObject);
+            myLevelReload.ReloadLevel();
         }
     }
 }
