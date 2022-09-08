@@ -15,6 +15,12 @@ public class LevelExit : MonoBehaviour
         }
     }
 
+    public void StartMenu()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIndex = currentSceneIndex + 1;
+        SceneManager.LoadScene(nextSceneIndex);
+    }
 
     IEnumerator LoadNextLevel()
     {
