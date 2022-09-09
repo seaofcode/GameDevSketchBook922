@@ -1677,5 +1677,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Exit
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8172917027748990775, guid: 736f3482fe66b1047b35d73ee0a1cc06, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172917027748990775, guid: 736f3482fe66b1047b35d73ee0a1cc06, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172917027748990775, guid: 736f3482fe66b1047b35d73ee0a1cc06, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172917027748990775, guid: 736f3482fe66b1047b35d73ee0a1cc06, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172917027748990775, guid: 736f3482fe66b1047b35d73ee0a1cc06, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8172917027748990775, guid: 736f3482fe66b1047b35d73ee0a1cc06, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 736f3482fe66b1047b35d73ee0a1cc06, type: 3}

@@ -6,7 +6,8 @@ public class ExplodingEnemy : MonoBehaviour
 {
     [SerializeField] GameObject enemyDebris;
     [SerializeField] Transform debrisPosition;
-    
+
+    CircleCollider2D myCircleCollider2D;
     SpriteRenderer mySpriteRenderer;
 
 

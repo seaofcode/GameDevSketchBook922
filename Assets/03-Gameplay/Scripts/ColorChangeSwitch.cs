@@ -23,6 +23,7 @@ public class ColorChangeSwitch : MonoBehaviour
         }
         if(isGreen){
             spriteRenderer.color = Color.green;
+            isCorrectColor = true;
         }
         if(isRed){
             spriteRenderer.color = Color.red;
