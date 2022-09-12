@@ -824,7 +824,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1119181482
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1460,6 +1460,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreCount: 0
   mySwitchDoor: {fileID: 1696941653}
+  greenSwitch1: {fileID: 0}
+  greenSwitch2: {fileID: 0}
+  greenSwitch3: {fileID: 0}
 --- !u!4 &2131490134
 Transform:
   m_ObjectHideFlags: 0
