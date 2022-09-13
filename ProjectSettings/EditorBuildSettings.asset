@@ -29,6 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/03-Gameplay/Levels/07-Toon FX.unity
     guid: 64176ff2d36a2184bb7ce90ead378cbd
+<<<<<<< HEAD
   - enabled: 1
     path: Assets/03-Gameplay/Levels/08-New Art BG.unity
     guid: 5daa6b91f33d97b4c901caefd4f4cb35
@@ -38,4 +39,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/03-Gameplay/Levels/10-New Art BG 3.unity
     guid: 2f465b70881393d4f834315386d1fa4d
+=======
+>>>>>>> 0480e5e1198ebff6b659cf6e669c62b7406eb4b5
   m_configObjects: {}
