@@ -7,6 +7,7 @@ public class ExplodingEnemy : MonoBehaviour
     [SerializeField] GameObject enemyDebris;
     [SerializeField] Transform debrisPosition;
 
+    Animator myAnimator;
     CircleCollider2D myCircleCollider2D;
     SpriteRenderer mySpriteRenderer;
 
@@ -15,20 +16,20 @@ public class ExplodingEnemy : MonoBehaviour
     void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
+        myAnimator = GetComponent<Animator>();
         StartCoroutine(ExplodeCountDown());
     }
 
+
+
     IEnumerator ExplodeCountDown()
     {
-        yield return new WaitForSecondsRealtime(1);
-        mySpriteRenderer.color = Color.red;
-        yield return new WaitForSecondsRealtime(1);
-        mySpriteRenderer.color = Color.magenta;
-        yield return new WaitForSecondsRealtime(1);
-        transform.localScale = new Vector2(1.5f, 1.5f);
-        yield return new WaitForSecondsRealtime(0.5f);
-        mySpriteRenderer.color = Color.clear;
+        myAnimator.SetBool("isCountingDown", true);
+        yield return new WaitForSecondsRealtime(2.8f);
         Instantiate(enemyDebris, debrisPosition.position, transform.rotation);
+        mySpriteRenderer.color = Color.clear;
+        myAnimator.SetBool("isCountingDown", false);
+        gameObject.SetActive(false);
     }
 
     

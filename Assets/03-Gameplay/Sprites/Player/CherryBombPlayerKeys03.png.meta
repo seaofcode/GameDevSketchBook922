@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: 813b69a6e6cad324babb52e7313b2544
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1229174468160253626
+    second: CherryBombPlayerKeys03_0
+  - first:
+      213: -2531121311895010072
+    second: CherryBombPlayerKeys03_1
+  - first:
+      213: 483745401783894154
+    second: CherryBombPlayerKeys03_2
+  - first:
+      213: 8515098165898900430
+    second: CherryBombPlayerKeys03_3
+  - first:
+      213: 8271539590546425526
+    second: CherryBombPlayerKeys03_4
+  - first:
+      213: 5763150219135959736
+    second: CherryBombPlayerKeys03_5
+  - first:
+      213: -5247906444376957334
+    second: CherryBombPlayerKeys03_6
+  - first:
+      213: -732988848621563539
+    second: CherryBombPlayerKeys03_7
+  - first:
+      213: 1843647522580146896
+    second: CherryBombPlayerKeys03_8
+  - first:
+      213: 4469809861775317736
+    second: CherryBombPlayerKeys03_9
+  - first:
+      213: -4047448698938226354
+    second: CherryBombPlayerKeys03_10
+  - first:
+      213: 184279252867573983
+    second: CherryBombPlayerKeys03_11
+  - first:
+      213: -6963113123190370429
+    second: CherryBombPlayerKeys03_12
+  - first:
+      213: -2824273728046822580
+    second: CherryBombPlayerKeys03_13
+  - first:
+      213: 8174248599607918214
+    second: CherryBombPlayerKeys03_14
+  - first:
+      213: -5854409803197648365
+    second: CherryBombPlayerKeys03_15
+  - first:
+      213: 4561743331378353941
+    second: CherryBombPlayerKeys03_16
+  - first:
+      213: 6243918564220568370
+    second: CherryBombPlayerKeys03_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 572
+        width: 295
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641145a655811fee0800000000000000
+      internalID: -1229174468160253626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_1
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 746
+        width: 145
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4c319c396afdcd0800000000000000
+      internalID: -2531121311895010072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 574
+        width: 258
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80ce0341eb96b600800000000000000
+      internalID: 483745401783894154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_3
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 602
+        width: 281
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3fbfdbaa4bb2670800000000000000
+      internalID: 8515098165898900430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_4
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 685
+        width: 218
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b68910ee696ac270800000000000000
+      internalID: 8271539590546425526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 491
+        width: 213
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b240def692daff40800000000000000
+      internalID: 5763150219135959736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_6
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 265
+        width: 290
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e9d68b4e0bb27b0800000000000000
+      internalID: -5247906444376957334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_7
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 530
+        width: 188
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61d6959686e3d5f0800000000000000
+      internalID: -732988848621563539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 17
+        width: 232
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da2b6a57a3f59910800000000000000
+      internalID: 1843647522580146896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 232
+        width: 230
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ead7a02364f70e30800000000000000
+      internalID: 4469809861775317736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_10
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 253
+        width: 238
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e498b254ad294d7c0800000000000000
+      internalID: -4047448698938226354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_11
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 271
+        width: 297
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd865ae0101be8200800000000000000
+      internalID: 184279252867573983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_12
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 272
+        width: 104
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f8061b18d0e5f90800000000000000
+      internalID: -6963113123190370429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_13
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 65
+        width: 212
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b0d4b020a2ec8d0800000000000000
+      internalID: -2824273728046822580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_14
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 85
+        width: 95
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e3d55dac3c07170800000000000000
+      internalID: 8174248599607918214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_15
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 35
+        width: 249
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312f6de4d45f0cea0800000000000000
+      internalID: -5854409803197648365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_16
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 50
+        width: 240
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517505704619e4f30800000000000000
+      internalID: 4561743331378353941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CherryBombPlayerKeys03_17
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 45
+        width: 82
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23385da3adad6a650800000000000000
+      internalID: 6243918564220568370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
