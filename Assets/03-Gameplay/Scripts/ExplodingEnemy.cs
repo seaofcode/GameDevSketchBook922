@@ -20,8 +20,6 @@ public class ExplodingEnemy : MonoBehaviour
         StartCoroutine(ExplodeCountDown());
     }
 
-
-
     IEnumerator ExplodeCountDown()
     {
         myAnimator.SetBool("isCountingDown", true);

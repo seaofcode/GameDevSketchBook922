@@ -12,8 +12,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] ColorChangeSwitch greenSwitch3;
 
     
-    void Start() {
-
+    void Start() 
+    {
             greenSwitch1 = GameObject.Find("ColorChangeSwitch1").GetComponent<ColorChangeSwitch>();
             greenSwitch2 = GameObject.Find("ColorChangeSwitch2").GetComponent<ColorChangeSwitch>();
             greenSwitch3 = GameObject.Find("ColorChangeSwitch3").GetComponent<ColorChangeSwitch>();
