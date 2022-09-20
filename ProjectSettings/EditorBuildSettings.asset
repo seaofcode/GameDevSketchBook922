@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/03-Gameplay/Levels/09-Start.unity
+    guid: 05f287cf33e54a2469fb5480786853d9
+  - enabled: 1
+    path: Assets/03-Gameplay/Levels/10-2 Enemy.unity
+    guid: 0e3559977967d4245acf7e8ba55e66dc
+  - enabled: 1
+    path: Assets/03-Gameplay/Levels/11-3 Enemy.unity
+    guid: cee00623172d33f488345ec828566902
+  - enabled: 1
+    path: Assets/03-Gameplay/Levels/12-Spawn Enemy.unity
+    guid: 231633e0c40678041b95efa347df848e
+  - enabled: 1
+    path: Assets/03-Gameplay/Levels/13-Puzzle.unity
+    guid: d1c53ce15985547438b09ca129eb749f
   m_configObjects: {}
